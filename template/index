@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        meta(http-equiv="Content-Type" CONTENT="text/html; charset=UTF-8")
+        title=template.title
+        link(rel="icon" href="http://img1.gximg.cn/v/static/images/logo.png")
+        link(rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    body
+        .container
+            h3 <img src="#{template.logo_link}"> #{template.title}
+            h4 当前目录：#{template.cpath}
+            table(class="table table-striped")
+                thead
+                    tr
+                        th 文件
+                        th 修改时间
+                        th 大小
+                tbody
+                    each item in template.items
+                        tr
+                            th <a href="#{item.filelink}">#{item.filepath}</a>
+                            th #{item.mtime}
+                            th #{item.size}

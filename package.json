@@ -11,6 +11,20 @@
     "server",
     "http"
   ],
-  "author": "",
+  "bin": {
+    "general-file-server": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timqi/general-file-server"
+  },
+  "homepage": "https://github.com/timqi/general-file-server",
+  "author": "Tim Qi <timqi.cn@gmail.com> (https://github.com/timqi)",
+  "dependencies": {
+    "async": "1.4.2",
+    "bl": "1.0.0",
+    "jade": "1.11.0",
+    "mime": "1.3.4"
+  },
   "license": "MIT"
 }
