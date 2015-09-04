@@ -8,13 +8,13 @@ html
     body
         .container
             h3 <img src="#{template.logo_link}"> #{template.title}
-            h4 当前目录：#{template.cpath}
+            h4 current path: #{template.cpath}
             table(class="table table-striped")
                 thead
                     tr
-                        th 文件
-                        th 修改时间
-                        th 大小
+                        th File
+                        th Modify
+                        th Size
                 tbody
                     each item in template.items
                         tr
