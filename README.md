@@ -1,7 +1,7 @@
 General-File-Server
 =============
 
-![logo](/____statics/logo.png)
+![logo](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/logo.png)
 
 This is a general file server made by [nodejs](http://nodejs.org). It will be easy for you to access the files on the server through the browser.
 
@@ -11,7 +11,7 @@ Install
 just use npm like:
 
 ```bash
-# npm install -g general-file-server
+$ npm install -g general-file-server
 ```
 
 And the server will be installed. run the command `gfs` to make it work with default configuration.
@@ -23,7 +23,9 @@ $ gfs
 Customize
 =============
 
-Edit the **config.js** configure file to make the server to meet your needs. The file is in the folder of general-file-server node_modules. It is usually in the path of `/usr/local/lib/node_modules/general-file-server/`
+Edit the **config.js** configure file to make the server meet your needs. The file is in the folder of general-file-server node_modules. It is usually in the path of 
+
+    /usr/local/lib/node_modules/general-file-server/
 
 ```javascript
 module.exports = {
@@ -35,9 +37,9 @@ module.exports = {
 }
 ```
 
-![example](/____statics/example.png)
+As you can see, there are five options you can modify. In particular, the `____statics` folder in the root of general-file-server module is always being served. you can put the static file like .css .js .png etc in it and files can be accessed with href with */____statics/* prefix.
 
-As you can see, there are five options you can modify. In particular, the `____statics` folder in the root of general-file-server module is a always being served. you can put the static file like .css .js .png etc in it and files can be accessed with href like */____statics/\*.css* or */____statics/\*.js* or */____statics/\*.png*
+![example](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example.png)
 
 License
 =============
