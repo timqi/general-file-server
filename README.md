@@ -37,7 +37,9 @@ module.exports = {
 }
 ```
 
+<br/>
 As you can see, there are five options you can modify. In particular, the `____statics` folder in the root of general-file-server module is always being served. you can put the static file like .css .js .png etc in it and files can be accessed with href with */____statics/* prefix.
+<br/>
 
 ![example](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example.png)
 
