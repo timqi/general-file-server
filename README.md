@@ -29,7 +29,7 @@ Edit the **config.js** configure file to make the server meet your needs. The fi
 
 ```javascript
 module.exports = {
-    hostname: '192.168.1.110',       // hostname
+    hostname: '192.168.1.110',       // hostname, or "abc.com"
     port: 1234,                      // port
     root_path: "/",                  // root_path to serve on your file system 
     title: "General File Server",    // title in the page
@@ -42,7 +42,7 @@ As you can see, there are five options you can modify. In particular, the `____s
 
 <br/>
 When you put mouse on the link of the file. It will show a qrcode for you. So you can access the folder or download the file through your mobile devices easily.
-<br/><br/><br/>
+<br/><br/>
 
 ![example](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example.png)
 
@@ -51,7 +51,7 @@ License
 
 The MIT License (MIT)
 
-    Copyright (c) <year> <copyright holders>
+    Copyright (c) <2015> <Tim Qi>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
