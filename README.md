@@ -62,10 +62,10 @@ Scan the qrcode to download the .apk package
 
 If you are using this repo, Your `example` can be here. You should do something like:
 
-* [Fork](https://github.com/timqi/general-file-server) 本库
-* 添加自己的 `example`
-* 提交 [Pull Request](https://github.com/timqi/general-file-server/compare) 
-* 坐等 Merge 
+* [fork](https://github.com/timqi/general-file-server) this repo
+* add your `example`
+* create a  [Pull Request](https://github.com/timqi/general-file-server/compare) 
+* waiting for merge 
 
 
 License
