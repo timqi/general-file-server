@@ -58,13 +58,13 @@ Scan the qrcode to download the .apk package
 
 <br/><br/>
 ![example2](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example2.png)
-
+<br/><br/>
 
 If you are using this repo, Your `example` can be here. You should do something like:
 
 * [Fork](https://github.com/timqi/general-file-server) 本库
 * 添加自己的 `example`
-* 提交 [PR](https://github.com/timqi/general-file-server/compare) 
+* 提交 [Pull Request](https://github.com/timqi/general-file-server/compare) 
 * 坐等 Merge 
 
 
