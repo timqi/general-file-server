@@ -65,7 +65,7 @@ If you are using this repo, Your `example` can be here. You should do something 
 * [fork](https://github.com/timqi/general-file-server) this repo
 * add your `example`
 * create a  [Pull Request](https://github.com/timqi/general-file-server/compare) 
-* waiting for merge 
+* waiting to merge 
 
 
 License
