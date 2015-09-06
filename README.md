@@ -46,6 +46,28 @@ When you put mouse on the link of the file. It will show a qrcode for you. So yo
 
 ![example](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example.png)
 
+Example
+=============
+
+You can use it as a " Android Distribution System"
+
+![example1](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example1.png)
+<br/><br/>
+
+Scan the qrcode to download the .apk package
+
+<br/><br/>
+![example2](https://raw.githubusercontent.com/timqi/general-file-server/master/____statics/example2.png)
+
+
+If you are using this repo, Your `example` can be here. You should do something like:
+
+* [Fork](https://github.com/timqi/general-file-server) 本库
+* 添加自己的 `example`
+* 提交 [PR](https://github.com/timqi/general-file-server/compare) 
+* 坐等 Merge 
+
+
 License
 =============
 
